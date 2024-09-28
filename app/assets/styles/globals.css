@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    input {
+        display: none;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    &:has(input:checked) .nav-text {
+        display: block;
+    }
+}
+
+@layer base {
+
+    td,
+    th {
+        @apply px-6;
+    }
+
+    td {
+        @apply py-4 border-b text-center;
+    }
+}

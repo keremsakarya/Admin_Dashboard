@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 16 Pro Max",
+      "category": "Electronics",
+      "price": "1299.99",
+      "stock": "25",
+      "description": "6.1-inch display, A15 Bionic chip, dual 12MP camera system.",
+      "image_url": "https://picsum.photos/seed/1/500/500",
+      "rating": 4.8,
+      "reviews_count": 102,
+      "brand": "Apple"
+    },
+    {
+      "id": "3",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Accessories",
+      "price": "349.99",
+      "stock": "41",
+      "description": "Industry-leading noise cancellation, 30 hours battery life.",
+      "image_url": "https://picsum.photos/seed/3/500/500",
+      "rating": 4.9,
+      "reviews_count": 120,
+      "brand": "Sony"
+    },
+    {
+      "id": "4",
+      "name": "Adidas Air Max 270",
+      "category": "Shoes",
+      "price": "249.99",
+      "stock": "53",
+      "description": "Breathable mesh upper, Max Air unit for responsive cushioning.",
+      "image_url": "https://picsum.photos/seed/4/500/500",
+      "rating": 4.7,
+      "reviews_count": 210,
+      "brand": "Adidas"
+    },
+    {
+      "id": "5",
+      "name": "Adidas Ultraboost 22",
+      "category": "Shoes",
+      "price": 180,
+      "stock": 35,
+      "description": "Primeknit upper with Boost midsole for maximum energy return.",
+      "image_url": "https://picsum.photos/seed/5/500/500",
+      "rating": 4.8,
+      "reviews_count": 95,
+      "brand": "Adidas"
+    },
+    {
+      "id": "6",
+      "name": "Dyson V11 Vacuum Cleaner",
+      "category": "Home Appliances",
+      "price": 599.99,
+      "stock": 15,
+      "description": "Powerful suction, LCD screen, up to 60 minutes of run time.",
+      "image_url": "https://picsum.photos/seed/6/500/500",
+      "rating": 4.9,
+      "reviews_count": 45,
+      "brand": "Dyson"
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "name": "Mert Kılıç",
+      "email": "mert.kiliç@example.com",
+      "password": "hashed_password_2",
+      "address": {
+        "street": "456 Pine Avenue",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "phone": "+90 312 456 7890",
+      "orders": [
+        {
+          "order_id": 1002,
+          "product_id": 3,
+          "quantity": 2,
+          "total_price": 799.98,
+          "order_date": "2024-08-01"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Efe Sakarya",
+      "email": "efe.sakarya@example.com",
+      "password": "hashed_password_3",
+      "address": {
+        "street": "789 Oak Boulevard",
+        "city": "Izmir",
+        "postal_code": "35000",
+        "country": "Turkey"
+      },
+      "phone": "+90 232 789 1234",
+      "orders": [
+        {
+          "order_id": 1003,
+          "product_id": 4,
+          "quantity": 1,
+          "total_price": 149.99,
+          "order_date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Göksu Erdoğan",
+      "email": "goksu.erdogan@example.com",
+      "password": "hashed_password_4",
+      "address": {
+        "street": "987 Maple Street",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "phone": "+90 242 123 4567",
+      "orders": [
+        {
+          "order_id": 1004,
+          "product_id": 5,
+          "quantity": 1,
+          "total_price": 180,
+          "order_date": "2024-09-20"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Kerem Sakarya",
+      "email": "kerem.sakarya@example.com",
+      "password": "hashed_password_1",
+      "address": {
+        "street": "123 Elm Street",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "phone": "+90 532 123 4567",
+      "orders": [
+        {
+          "order_id": 1001,
+          "product_id": 1,
+          "quantity": 1,
+          "total_price": 1299.99,
+          "order_date": "2024-07-15"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "order_date": "2024-09-10",
+      "status": "Shipped",
+      "total_price": 1299.99,
+      "shipping_address": {
+        "street": "123 Elm Street",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Apple iPhone 14",
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "id": "63d9"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 2,
+      "order_date": "2024-09-15",
+      "status": "Delivered",
+      "total_price": 799.98,
+      "shipping_address": {
+        "street": "456 Pine Avenue",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Sony WH-1000XM5 Headphones",
+          "quantity": 2,
+          "price": 399.99
+        }
+      ],
+      "id": "34dc"
+    },
+    {
+      "order_id": 1003,
+      "user_id": 3,
+      "order_date": "2024-09-22",
+      "status": "Processing",
+      "total_price": 149.99,
+      "shipping_address": {
+        "street": "789 Oak Boulevard",
+        "city": "Izmir",
+        "postal_code": "35000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 4,
+          "name": "Nike Air Max 270",
+          "quantity": 1,
+          "price": 149.99
+        }
+      ],
+      "id": "8cff"
+    },
+    {
+      "order_id": 1004,
+      "user_id": 4,
+      "order_date": "2024-09-25",
+      "status": "Shipped",
+      "total_price": 180,
+      "shipping_address": {
+        "street": "987 Maple Street",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "id": "bdcf"
+    }
+  ]
+}
