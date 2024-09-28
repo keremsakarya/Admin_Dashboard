@@ -1,37 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Admin Dashboard ⚜️
 
-## Getting Started
+This project was inspired by a dashboard used by admins. There are four different pages in the project: Homepage, Products, Users and Orders.
 
-First, run the development server:
+In homepage, the datas of total users, total orders, total sales and numbers of products are visible. Also a chart that shows the sales details displays in homepage.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+In products page, user can see the products and edit or delete thhe products.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In users page, admin can check the costumers' detail or delete them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In orders page, shipment status of orders is displayed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Technologies Used
 
-## Learn More
+- NextJS
+- ReactTS
+- API Calls
+- Suspense
+- Fallback Component
+- "use client"
+- Event Handlers
+- Conditional Rendering
+- Error Management (try-catch)
+- JSON Conversion
+- Cache Control
 
-To learn more about Next.js, take a look at the following resources:
+# Screen GIF
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Admin_Dashboard
+![0928](https://github.com/user-attachments/assets/c4210d7d-1a6a-4005-aa59-bb21662d5b45)
